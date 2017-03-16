@@ -113,7 +113,7 @@ cd $build_dir
 
 # Install npm@next
 status "Installing the 'next' version of npm"
-npm install -g npm@next 2>&1 | indent
+npm install -g npm@4.4.2 2>&1 | indent
 npm_version=$(npm -v)
 status "Using npm version: $npm_version"
 
